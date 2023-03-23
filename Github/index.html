@@ -102,23 +102,11 @@
                 <h2 id="subir-la-pagina-a-github">Subir la página a GitHub</h2>
 <p>Para subir la página web creada con MkDocs a GitHub, debemos seguir los siguientes pasos:</p>
 <ol>
-<li>
-<p>Crea un nuevo repositorio en GitHub.</p>
-</li>
-<li>
-<p>Abre una terminal y navega hasta la carpeta que contiene la página de Mkdocs.</p>
-</li>
-<li>
-<p>Ejecuta el siguiente comando para generar la carpeta con los archivos HTML:</p>
-</li>
-</ol>
-<p><code>mkdocs build</code></p>
-<ol>
-<li>Configura el repositorio remoto como destino de implementación de tu sitio web usando el siguiente comando: </li>
-</ol>
-<p><code>mkdocs gh-deploy</code></p>
-<ol>
-<li>Si es necesario, ingresa los datos necesarios de tu cuenta de GitHub.</li>
+<li>Crea un nuevo repositorio en Github.</li>
+<li>Abre una terminal y navega hasta la carpeta que contiene la página creada con MkDocs.</li>
+<li>Ejecuta el comando ' mkdocs build ' para generar la carpeta con los archivos HTML.</li>
+<li>Configura el repositorio remoto como destino de implementación de tu sitio web creando un repositorio git con el comando ' git init ' y sincronizándolo usando el comando ' git remote add origin (url del repositorio) '.</li>
+<li>Sube la página usando el comando ' mkdocs gh-deploy '</li>
 </ol>
 <p>Una vez completado estos pasos, podrás ver tu página de MkDocs en línea.</p>
               
